@@ -1,0 +1,4 @@
+kap files neu: ftp://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/kap/
+kap files alt: ftp://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/chartbundles/kap/
+
+Beispiel JSON: 
