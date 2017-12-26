@@ -5,7 +5,7 @@ OSM Project: prepare meta data for download layer
 kap files neu: ftp://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/kap/
 
 # requirements
-geojseon
+geojson
 
 https://pypi.python.org/pypi/geojson 
 
@@ -17,4 +17,4 @@ cd OSM_pmd4dl
 # sample call of the script
 mkdir .downloads
 wget -c -P .downloads ftp://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/kap/*.json
-python pmd4dl.py -i ./.downloads/ -o dl.geojseon
+python pmd4dl.py -i ./.downloads/ -o dl.geojseon -u ftp://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/kap/ -f 0.5
