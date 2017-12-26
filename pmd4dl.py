@@ -36,12 +36,16 @@ if __name__ == '__main__':
     
     options, arguments = parser.parse_args()
     
-      
     # get all json files from given directory
     filenamelist = GetFileList(options.InDir,'.json')
     
     # create list for huell
     huell_list = list()
+    
+    print("pmd4dl started")
+    print("input file directory {}".format(options.InDir))
+    print("output file name     {}".format(options.OutFile))
+    print("facor                {}".format(options.factor))
     
     # loop over all files
     for filename in filenamelist:
@@ -67,7 +71,7 @@ if __name__ == '__main__':
             print(jsonres.errors())
         
         # print debug message
-        print(geojson.dumps(jsonres, sort_keys=True))        
+        print("add buendle - name: {}, date: {}, format: {}".format(a.properties['name:en'],a.properties['date'],a.properties['format']))        
    
     # create GeometryCollection with all created polygons
     jsonres = GeometryCollection(huell_list)
@@ -77,7 +81,7 @@ if __name__ == '__main__':
     
     
     # print created geojson object to console
-    print(geojson.dumps(jsonres, indent=4, sort_keys=True))   
+    # print(geojson.dumps(jsonres, indent=4, sort_keys=True))   
     
     # print created geojson object to output file
     with open(options.OutFile, 'w') as f:

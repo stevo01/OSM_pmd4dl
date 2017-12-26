@@ -4,8 +4,8 @@ Created on 25.12.2017
 @author: stevo
 '''
 import unittest
-from geometry import Polygon, MultiPolygon, GeometryCollection
 import geojson
+from geojson.geometry import Polygon, MultiPolygon, GeometryCollection
 
 class Test(unittest.TestCase):
 

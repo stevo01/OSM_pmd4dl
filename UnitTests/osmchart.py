@@ -9,7 +9,8 @@ import unittest
 class Test(unittest.TestCase):
 
 
-    def testName(self):
+    def test_Atlas(self):
+        a = osmchart_atlas(1,1,2,2)
         pass
 
 
