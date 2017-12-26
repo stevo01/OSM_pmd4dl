@@ -6,6 +6,7 @@ Created on 25.12.2017
 import unittest
 import geojson
 from geojson.geometry import Polygon, MultiPolygon, GeometryCollection
+from geojson.feature import Feature
 
 class Test(unittest.TestCase):
 
@@ -79,6 +80,42 @@ class Test(unittest.TestCase):
         
         pass
     
+    
+    def testgeojsonmetadata(self):
+
+        expectedRes = '{"geometry": {"coordinates": [[[0, 55.77657302], [0, 40.97989807], [-11.25, 40.97989807], [-11.25, 55.77657302], [0, 55.77657302]]], "properties": {"app": "OpenCPN", "app:url": "http://opencpn.org/ocpn/", "date": "2016-05-17T20:59:00.000Z", "filesize": 12345, "format": "KAP", "name:de": "Golf von Biskaya", "name:en": "Gulf of Biscay", "url": "ftp://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/chartbundles/kap/OSM-OpenCPN-KAP2-GulfOfBiscay-20160515-1145.7z"}, "type": "Polygon"}, "properties": {}, "type": "Feature"}'
+        
+        NW1 = (12.0,50.0)
+        SW1 = (12.0,49.0)
+        SE1 = (13.0,49.0)
+        NE1 = (13.0,50.0)
+        
+        [0, 55.77657302],
+        [0, 40.97989807],
+        [-11.25, 40.97989807],
+        [-11.25, 55.77657302],
+        [0, 55.77657302]
+                
+        sample_obj = Polygon([[(0, 55.77657302), (0, 40.97989807), (-11.25, 40.97989807), (-11.25, 55.77657302), ( 0, 55.77657302)]],
+                             properties={"name:en": "Gulf of Biscay",
+                                         "name:de": "Golf von Biskaya",
+                                         "format": "KAP",
+                                         "app": "OpenCPN",
+                                         "app:url": "http://opencpn.org/ocpn/",
+                                         "url": "ftp://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/chartbundles/kap/OSM-OpenCPN-KAP2-GulfOfBiscay-20160515-1145.7z",
+                                         "date": "2016-05-17T20:59:00.000Z",
+                                         "filesize": 12345
+                                         }) 
+        
+        sample_obj = Feature(geometry=sample_obj)
+    
+        if sample_obj.is_valid != True:
+            print(sample_obj.errors())
+        
+        self.assertEqual(sample_obj.is_valid, True)
+        self.assertEqual(expectedRes, geojson.dumps(sample_obj, sort_keys=True))
+        
+        pass
 
 if __name__ == "__main__":
     #import sys;sys.argv = ['', 'Test.testName']
