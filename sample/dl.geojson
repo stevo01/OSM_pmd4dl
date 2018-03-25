@@ -78,18 +78,17 @@
                         ]
                     ]
                 ], 
-                "properties": {
-                    "app": "OpenCPN", 
-                    "app:url": "https://opencpn.org/", 
-                    "date": "2017-11-22T23:59:29.683Z", 
-                    "filesize": "t.b.d.", 
-                    "format": "KAP", 
-                    "name:en": "Adria", 
-                    "url": "ftp://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/kap/OSM-OpenCPN2-KAP-Adria-20171122-1907.7z"
-                }, 
                 "type": "Polygon"
             }, 
-            "properties": {}, 
+            "properties": {
+                "app": "OpenCPN", 
+                "app:url": "https://opencpn.org/", 
+                "date": "2017-11-22T23:59:29.683Z", 
+                "filesize": 236504864, 
+                "format": "KAP", 
+                "name:en": "OSM-OpenCPN2-KAP-Adria-20171122-1907.7z", 
+                "url": "ftp://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/kap/OSM-OpenCPN2-KAP-Adria-20171122-1907.7z"
+            }, 
             "type": "Feature"
         }, 
         {
@@ -182,18 +181,17 @@
                         ]
                     ]
                 ], 
-                "properties": {
-                    "app": "OpenCPN", 
-                    "app:url": "https://opencpn.org/", 
-                    "date": "2017-11-25T15:37:26.447Z", 
-                    "filesize": "t.b.d.", 
-                    "format": "KAP", 
-                    "name:en": "Caribbean", 
-                    "url": "ftp://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/kap/OSM-OpenCPN2-KAP-Caribbean-20171125-1537.7z"
-                }, 
                 "type": "Polygon"
             }, 
-            "properties": {}, 
+            "properties": {
+                "app": "OpenCPN", 
+                "app:url": "https://opencpn.org/", 
+                "date": "2017-11-25T15:37:26.447Z", 
+                "filesize": 307762284, 
+                "format": "KAP", 
+                "name:en": "OSM-OpenCPN2-KAP-Caribbean-20171125-1537.7z", 
+                "url": "ftp://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/kap/OSM-OpenCPN2-KAP-Caribbean-20171125-1537.7z"
+            }, 
             "type": "Feature"
         }, 
         {
@@ -258,18 +256,17 @@
                         ]
                     ]
                 ], 
-                "properties": {
-                    "app": "OpenCPN", 
-                    "app:url": "https://opencpn.org/", 
-                    "date": "2017-11-25T16:39:14.668Z", 
-                    "filesize": "t.b.d.", 
-                    "format": "KAP", 
-                    "name:en": "Channel", 
-                    "url": "ftp://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/kap/OSM-OpenCPN2-KAP-Channel-20171125-1639.7z"
-                }, 
                 "type": "Polygon"
             }, 
-            "properties": {}, 
+            "properties": {
+                "app": "OpenCPN", 
+                "app:url": "https://opencpn.org/", 
+                "date": "2017-11-25T16:39:14.668Z", 
+                "filesize": 235835517, 
+                "format": "KAP", 
+                "name:en": "OSM-OpenCPN2-KAP-Channel-20171125-1639.7z", 
+                "url": "ftp://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/kap/OSM-OpenCPN2-KAP-Channel-20171125-1639.7z"
+            }, 
             "type": "Feature"
         }, 
         {
@@ -330,18 +327,17 @@
                         ]
                     ]
                 ], 
-                "properties": {
-                    "app": "OpenCPN", 
-                    "app:url": "https://opencpn.org/", 
-                    "date": "2017-11-25T17:14:09.224Z", 
-                    "filesize": "t.b.d.", 
-                    "format": "KAP", 
-                    "name:en": "GulfOfBiscay", 
-                    "url": "ftp://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/kap/OSM-OpenCPN2-KAP-GulfOfBiscay-20171125-1714.7z"
-                }, 
                 "type": "Polygon"
             }, 
-            "properties": {}, 
+            "properties": {
+                "app": "OpenCPN", 
+                "app:url": "https://opencpn.org/", 
+                "date": "2017-11-25T17:14:09.224Z", 
+                "filesize": "unknown", 
+                "format": "KAP", 
+                "name:en": "OSM-OpenCPN2-KAP-GulfOfBiscay-20171125-1714.7z", 
+                "url": "ftp://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/kap/OSM-OpenCPN2-KAP-GulfOfBiscay-20171125-1714.7z"
+            }, 
             "type": "Feature"
         }, 
         {
@@ -406,18 +402,17 @@
                         ]
                     ]
                 ], 
-                "properties": {
-                    "app": "OpenCPN", 
-                    "app:url": "https://opencpn.org/", 
-                    "date": "2017-11-25T20:58:42.166Z", 
-                    "filesize": "t.b.d.", 
-                    "format": "KAP", 
-                    "name:en": "MediEast", 
-                    "url": "ftp://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/kap/OSM-OpenCPN2-KAP-MediEast-20171125-2058.7z"
-                }, 
                 "type": "Polygon"
             }, 
-            "properties": {}, 
+            "properties": {
+                "app": "OpenCPN", 
+                "app:url": "https://opencpn.org/", 
+                "date": "2017-11-25T20:58:42.166Z", 
+                "filesize": 544161278, 
+                "format": "KAP", 
+                "name:en": "OSM-OpenCPN2-KAP-MediEast-20171125-2058.7z", 
+                "url": "ftp://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/kap/OSM-OpenCPN2-KAP-MediEast-20171125-2058.7z"
+            }, 
             "type": "Feature"
         }, 
         {
@@ -482,18 +477,17 @@
                         ]
                     ]
                 ], 
-                "properties": {
-                    "app": "OpenCPN", 
-                    "app:url": "https://opencpn.org/", 
-                    "date": "2017-11-26T05:22:37.522Z", 
-                    "filesize": "t.b.d.", 
-                    "format": "KAP", 
-                    "name:en": "MediWest", 
-                    "url": "ftp://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/kap/OSM-OpenCPN2-KAP-MediWest-20171126-0522.7z"
-                }, 
                 "type": "Polygon"
             }, 
-            "properties": {}, 
+            "properties": {
+                "app": "OpenCPN", 
+                "app:url": "https://opencpn.org/", 
+                "date": "2017-11-26T05:22:37.522Z", 
+                "filesize": "unknown", 
+                "format": "KAP", 
+                "name:en": "OSM-OpenCPN2-KAP-MediWest-20171126-0522.7z", 
+                "url": "ftp://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/kap/OSM-OpenCPN2-KAP-MediWest-20171126-0522.7z"
+            }, 
             "type": "Feature"
         }, 
         {
@@ -526,18 +520,17 @@
                         ]
                     ]
                 ], 
-                "properties": {
-                    "app": "OpenCPN", 
-                    "app:url": "https://opencpn.org/", 
-                    "date": "2017-11-26T08:26:21.303Z", 
-                    "filesize": "t.b.d.", 
-                    "format": "KAP", 
-                    "name:en": "Niederlande-Binnen", 
-                    "url": "ftp://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/kap/OSM-OpenCPN2-KAP-Niederlande-Binnen-20171126-0826.7z"
-                }, 
                 "type": "Polygon"
             }, 
-            "properties": {}, 
+            "properties": {
+                "app": "OpenCPN", 
+                "app:url": "https://opencpn.org/", 
+                "date": "2017-11-26T08:26:21.303Z", 
+                "filesize": 126088225, 
+                "format": "KAP", 
+                "name:en": "OSM-OpenCPN2-KAP-Niederlande-Binnen-20171126-0826.7z", 
+                "url": "ftp://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/kap/OSM-OpenCPN2-KAP-Niederlande-Binnen-20171126-0826.7z"
+            }, 
             "type": "Feature"
         }, 
         {
@@ -618,18 +611,17 @@
                         ]
                     ]
                 ], 
-                "properties": {
-                    "app": "OpenCPN", 
-                    "app:url": "https://opencpn.org/", 
-                    "date": "2017-11-26T14:44:00.160Z", 
-                    "filesize": "t.b.d.", 
-                    "format": "KAP", 
-                    "name:en": "NorthernAtlantic", 
-                    "url": "ftp://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/kap/OSM-OpenCPN2-KAP-NorthernAtlantic-20171126-1444.7z"
-                }, 
                 "type": "Polygon"
             }, 
-            "properties": {}, 
+            "properties": {
+                "app": "OpenCPN", 
+                "app:url": "https://opencpn.org/", 
+                "date": "2017-11-26T14:44:00.160Z", 
+                "filesize": 232982591, 
+                "format": "KAP", 
+                "name:en": "OSM-OpenCPN2-KAP-NorthernAtlantic-20171126-1444.7z", 
+                "url": "ftp://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/kap/OSM-OpenCPN2-KAP-NorthernAtlantic-20171126-1444.7z"
+            }, 
             "type": "Feature"
         }, 
         {
@@ -706,18 +698,17 @@
                         ]
                     ]
                 ], 
-                "properties": {
-                    "app": "OpenCPN", 
-                    "app:url": "https://opencpn.org/", 
-                    "date": "2017-11-26T21:07:55.167Z", 
-                    "filesize": "t.b.d.", 
-                    "format": "KAP", 
-                    "name:en": "NorthWestPassage", 
-                    "url": "ftp://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/kap/OSM-OpenCPN2-KAP-NorthWestPassage-20171126-2107.7z"
-                }, 
                 "type": "Polygon"
             }, 
-            "properties": {}, 
+            "properties": {
+                "app": "OpenCPN", 
+                "app:url": "https://opencpn.org/", 
+                "date": "2017-11-26T21:07:55.167Z", 
+                "filesize": 103195724, 
+                "format": "KAP", 
+                "name:en": "OSM-OpenCPN2-KAP-NorthWestPassage-20171126-2107.7z", 
+                "url": "ftp://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/kap/OSM-OpenCPN2-KAP-NorthWestPassage-20171126-2107.7z"
+            }, 
             "type": "Feature"
         }
     ], 
