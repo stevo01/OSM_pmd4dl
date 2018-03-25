@@ -28,8 +28,11 @@ class osmchart_atlas(object):
             
             for tmp_area in gj_data.get("geometry").get("geometries"):
                 coordlist = tmp_area.get("coordinates")
-                self.chartlist.append(area(json_obj=tmp_area.get("coordinates")))
-                
+                try:
+                    self.chartlist.append(area(json_obj=tmp_area.get("coordinates")))
+                except:
+                    print("error occured {}".format(filename))
+                    #self.chartlist.append(area(json_obj=tmp_area.get("coordinates")))
             self.properties = gj_data.properties
     
     
