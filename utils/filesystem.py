@@ -5,15 +5,16 @@ Created on 24.12.2017
 '''
 import os
 
-def GetFileList(path, filter=None):
+
+def GetFileList(path, _filter=None):
     filenamelist = os.listdir(path)
-    
-    if filter:
+
+    if _filter:
         ret = list()
         for filename in filenamelist:
-            if filename.find(filter) != -1:
+            if filename.find(_filter) != -1:
                 ret.append(filename)
     else:
-        ret = filenamelist 
-                  
+        ret = filenamelist
+
     return ret
