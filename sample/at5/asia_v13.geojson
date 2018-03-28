@@ -1,0 +1,180 @@
+
+{
+    "type":"FeatureCollection",
+    "generator":"JOSM",
+    "features":[
+        {
+            "type":"Feature",
+            "properties":{
+                "type":"multipolygon",
+        "name:en": "Asia",
+        "name:de": "Asien",
+        "format": "AT5",
+        "version": "13",
+        "app": "Lowrance, Simrad and B&G",
+        "app:url": "https://wiki.openstreetmap.org/wiki/AT5-OpenSeaMap-Chart_for_Lowrance_Simrad_B&G",
+        "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/at5/charts/v13/v13_Seamarks.zip",
+        "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/at5/charts/v13/v13_CoastalWatersAsia.zip",
+        "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/at5/charts/v13/v13_CentralAsia.zip",
+        "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/at5/charts/v13/v13_EasternAsia.zip",
+        "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/at5/charts/v13/v13_NorthernAsia.zip",
+        "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/at5/charts/v13/v13_SouthEasternAsia.zip",
+        "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/at5/charts/v13/v13_SouthernAsia.zip",
+        "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/at5/charts/v13/v13_WesternAsia.zip",
+        "date": "0000-00-00T00:00:00.000Z",
+        "filesize": 0
+            },
+            "geometry":{
+                "type":"MultiPolygon",
+                "coordinates":[
+                    [
+                        [
+                            [
+                                -168.25000000000,
+                                77.70000000000
+                            ],
+                            [
+                                -179.99990000000,
+                                77.70000000000
+                            ],
+                            [
+                                -179.99990000000,
+                                58.10000000000
+                            ],
+                            [
+                                -168.25000000000,
+                                58.10000000000
+                            ],
+                            [
+                                -168.25000000000,
+                                77.70000000000
+                            ]
+                        ],
+                        [
+                            [
+                                39.69080000000,
+                                84.52666000000
+                            ],
+                            [
+                                179.99990000000,
+                                84.38487000000
+                            ],
+                            [
+                                179.99990000000,
+                                26.27883000000
+                            ],
+                            [
+                                142.08454100000,
+                                22.06270700000
+                            ],
+                            [
+                                130.14700000000,
+                                3.60859800000
+                            ],
+                            [
+                                141.13730000000,
+                                -1.66635800000
+                            ],
+                            [
+                                141.04380000000,
+                                -9.78479500000
+                            ],
+                            [
+                                130.26450000000,
+                                -10.03990000000
+                            ],
+                            [
+                                118.25450000000,
+                                -13.01165000000
+                            ],
+                            [
+                                102.79750000000,
+                                -8.38800800000
+                            ],
+                            [
+                                89.50451000000,
+                                -11.14170000000
+                            ],
+                            [
+                                61.62511000000,
+                                -9.10351200000
+                            ],
+                            [
+                                51.62645000000,
+                                12.54865000000
+                            ],
+                            [
+                                44.20775000000,
+                                11.67860000000
+                            ],
+                            [
+                                39.78016000000,
+                                16.56855000000
+                            ],
+                            [
+                                31.60401000000,
+                                31.58641000000
+                            ],
+                            [
+                                33.27769000000,
+                                34.00057000000
+                            ],
+                            [
+                                34.76740000000,
+                                34.85347000000
+                            ],
+                            [
+                                35.72423000000,
+                                36.32686000000
+                            ],
+                            [
+                                36.55970000000,
+                                37.66439000000
+                            ],
+                            [
+                                44.10530000000,
+                                37.98438000000
+                            ],
+                            [
+                                43.01638000000,
+                                41.27191000000
+                            ],
+                            [
+                                41.28304000000,
+                                41.41274000000
+                            ],
+                            [
+                                36.26378000000,
+                                44.40772000000
+                            ],
+                            [
+                                36.61315000000,
+                                45.58723000000
+                            ],
+                            [
+                                37.48493000000,
+                                46.80924000000
+                            ],
+                            [
+                                38.27497000000,
+                                47.61317000000
+                            ],
+                            [
+                                39.56164000000,
+                                48.43141000000
+                            ],
+                            [
+                                39.77264000000,
+                                50.58891000000
+                            ],
+                            [
+                                39.69080000000,
+                                84.52666000000
+                            ]
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}

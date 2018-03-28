@@ -1,0 +1,85 @@
+
+{
+    "type":"FeatureCollection",
+    "generator":"JOSM",
+    "features":[
+        {
+            "type":"Feature",
+            "properties":{
+                "type":"multipolygon",
+        "name:en": "Australia and Oceania",
+        "name:de": "Australien und Ozeanien",
+        "format": "AT5",
+        "version": "13",
+        "app": "Lowrance, Simrad and B&G",
+        "app:url": "https://wiki.openstreetmap.org/wiki/AT5-OpenSeaMap-Chart_for_Lowrance_Simrad_B&G",
+        "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/at5/charts/v13/v13_Seamarks.zip",
+        "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/at5/charts/v13/v13_CoastalWatersAustraliaAndOceania.zip",
+        "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/at5/charts/v13/v13_AustraliaAndOceania.zip",
+        "date": "0000-00-00T00:00:00.000Z",
+        "filesize": 0
+            },
+            "geometry":{
+                "type":"MultiPolygon",
+                "coordinates":[
+                    [
+                        [
+                            [
+                                89.51250000000,
+                                -11.14336000000
+                            ],
+                            [
+                                61.66378000000,
+                                -9.17771300000
+                            ],
+                            [
+                                44.65547000000,
+                                -57.08778000000
+                            ],
+                            [
+                                179.74270000000,
+                                -57.16482000000
+                            ],
+                            [
+                                179.99470000000,
+                                26.27781000000
+                            ],
+                            [
+                                132.14370000000,
+                                26.46478000000
+                            ],
+                            [
+                                130.14510000000,
+                                3.64031400000
+                            ],
+                            [
+                                129.95320000000,
+                                -0.53529260000
+                            ],
+                            [
+                                131.06160000000,
+                                -3.78481500000
+                            ],
+                            [
+                                130.26690000000,
+                                -10.04378000000
+                            ],
+                            [
+                                118.25570000000,
+                                -13.01165000000
+                            ],
+                            [
+                                102.80090000000,
+                                -8.39045300000
+                            ],
+                            [
+                                89.51250000000,
+                                -11.14336000000
+                            ]
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}

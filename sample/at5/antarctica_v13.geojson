@@ -1,0 +1,53 @@
+
+{
+    "type":"FeatureCollection",
+    "generator":"JOSM",
+    "features":[
+        {
+            "type":"Feature",
+            "properties":{
+                "type":"multipolygon",
+        "name:en": "Antarctica",
+        "name:de": "Antarktis",
+        "format": "AT5",
+        "version": "13",
+        "app": "Lowrance, Simrad and B&G",
+        "app:url": "https://wiki.openstreetmap.org/wiki/AT5-OpenSeaMap-Chart_for_Lowrance_Simrad_B&G",
+        "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/at5/charts/v13/v13_Seamarks.zip",
+        "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/at5/charts/v13/v13_CoastalWatersAntarctica.zip",
+        "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/at5/charts/v13/v13_Antarctica.zip",
+        "date": "0000-00-00T00:00:00.000Z",
+        "filesize": 0
+            },
+            "geometry":{
+                "type":"MultiPolygon",
+                "coordinates":[
+                    [
+                        [
+                            [
+                                -180.00000000000,
+                                -90.00000000000
+                            ],
+                            [
+                                180.00000000000,
+                                -90.00000000000
+                            ],
+                            [
+                                180.00000000000,
+                                -60.00000000000
+                            ],
+                            [
+                                -180.00000000000,
+                                -60.00000000000
+                            ],
+                            [
+                                -180.00000000000,
+                                -90.00000000000
+                            ]
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}
