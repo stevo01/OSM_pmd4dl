@@ -1,7 +1,13 @@
 # pmd4dl
 OSM Project: prepare meta data for download layer
 
-# location for example chart bundles
+# specification for osm geo json file structure
+https://wiki.openseamap.org/wiki/OpenSeaMap-dev:De:Chart_Download_Layer
+
+# online check for geojson files
+http://geojsonlint.com/
+
+# location for chart bundles
 kap files neu: ftp://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/kap/
 
 # requirements
@@ -19,5 +25,5 @@ cd OSM_pmd4dl
 ```
 mkdir .downloads
 wget -c -P .downloads ftp://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/kap/*.json
-python pmd4dl.py -i ./.downloads/ -o dl.geojseon -u ftp://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/kap/ -f 0.5
+python merge_geojson_files.py -i .downloads/ -o download.geojson 
 ```
