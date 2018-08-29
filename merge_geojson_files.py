@@ -107,7 +107,7 @@ if __name__ == '__main__':
     # create list for huell
     feature_list = list()
 
-    print("pmd4dl started")
+    print("merge_geojson_files started")
     print("input file directory {}".format(options.InDir))
     print("output file name     {}".format(options.OutFile))
 
@@ -132,3 +132,5 @@ if __name__ == '__main__':
     # print created geojson object to output file
     with open(options.OutFile, 'w') as f:
         f.write(geojson.dumps(jsonres, indent=4, sort_keys=True))
+
+    print("exit merge_geojson_files")
