@@ -21,7 +21,7 @@ pip install geojson
 git clone https://github.com/stevo01/OSM_pmd4dl.git
 cd OSM_pmd4dl
 ```
-# sample call of the script
+# sample call of the merge script
 ```
 mkdir .downloads
 wget -c -P .downloads ftp://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/kap/*.json

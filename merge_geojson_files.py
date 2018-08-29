@@ -94,7 +94,7 @@ if __name__ == '__main__':
     usage = "usage: %prog [options] arg1 arg2"
     atlas = list()
 
-    parser.add_option("-d", "--InDir", type="string", help="Input Directory", dest="InDir", default="./sample/geojson/")
+    parser.add_option("-d", "--InDir", type="string", help="Input Directory", dest="InDir", default="./sample/geojson/kap/")
     parser.add_option("-o", "--OutFile", type="string", help="Output Filename", dest="OutFile", default="./sample/download.geojson")
     options, arguments = parser.parse_args()
 
@@ -111,7 +111,7 @@ if __name__ == '__main__':
     print("input file directory {}".format(options.InDir))
     print("output file name     {}".format(options.OutFile))
 
-    # loop over all files and merge 
+    # loop over all files and merge
     for filename in filenamelist:
 
         with open(options.InDir+filename) as f:

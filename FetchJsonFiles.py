@@ -14,7 +14,7 @@ if __name__ == '__main__':
 
     parser.add_option("-a", "--address", type="string", help="server address", dest="address", default="ftp5.gwdg.de")
     parser.add_option("-i", "--dir", type="string", help="json file directory on server", dest="InPath", default="/pub/misc/openstreetmap/openseamap/charts/kap")
-    parser.add_option("-o", "--filedir", type="string", help="url", dest="OutPath", default="sample/kap/")
+    parser.add_option("-o", "--filedir", type="string", help="url", dest="OutPath", default="sample/geojson/kap/")
 
     options, arguments = parser.parse_args()
     ftphandler = ftpAccess(options.address)
@@ -25,7 +25,7 @@ if __name__ == '__main__':
     for file in ftpfilenamelist:
         filename = file[0]
         # search JsonFiles
-        if (filename[-5:].find('.json') != -1):
+        if (filename[-8:].find('.geojson') != -1):
             print("download file {}".format(filename))
             jsonfilelist.append(filename)
             jsondata = ftphandler.GetFtpFile(options.InPath, filename, options.OutPath)
