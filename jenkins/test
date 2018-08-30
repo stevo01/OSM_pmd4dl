@@ -1,0 +1,10 @@
+node {
+    
+    stage('deploy geojson files') {
+        sh"""#!/bin/bash
+        set -x
+        ls
+        """            
+    }
+
+}
