@@ -4,6 +4,7 @@ Created on 24.12.2017
 @author: stevo
 '''
 from ftplib import FTP_TLS
+from utils.Helper import ensure_dir
 
 filenamelist = list()
 
@@ -27,6 +28,8 @@ class ftpAccess():
     def GetFtpFile(self, InPath, filename, downloaddir):
 
         outfile = downloaddir + filename
+
+        ensure_dir(downloaddir)
 
         self.ftp.cwd(InPath)
 
