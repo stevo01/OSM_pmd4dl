@@ -1,10 +1,70 @@
-node {
-    
-    stage('deploy geojson files') {
-        sh"""#!/bin/bash
-        set -x
-        ls
-        """            
+pipeline 
+{
+    agent any
+    parameters 
+    {
+        string(name: 'WORKINGDIR', defaultValue: 'work/', description: 'download directory for json files')
+        string(name: 'SERVERURL',  defaultValue: 'ftp5.gwdg.de', description: 'url of the https server with download packages')
+        string(name: 'SERVERPATH', defaultValue: '/pub/misc/openstreetmap/openseamap/charts/history/kap', description: 'server path')
+        string(name: 'FILENAME',   defaultValue: './sample/download.geojson', description: 'filename of merged geojson file')
+        booleanParam(name: 'DEPLOY',     defaultValue: true, description: 'deploy files if true')
     }
-
+    
+    stages 
+    {
+        stage('Clone OSM_pmd4dl') 
+	    {
+	    	steps
+	    	{
+	        	     checkout([$class: 'GitSCM', 
+		        		  branches: [[name: '*/master']], 
+		        		  doGenerateSubmoduleConfigurations: false, 
+		        		  extensions: [], 
+		        		  extensions: [[$class: 'RelativeTargetDirectory', relativeTargetDir: 'SeaChartCreator']], 
+	            		  submoduleCfg: [], 
+		        		  userRemoteConfigs: [[url: 'https://github.com/stevo01/SeaChartCreator.git'], 
+		        		 ]])
+	        }   
+	    }
+	    
+	    stage('fetch geojson files') {
+	    	steps{
+		        sh"""#!/bin/bash
+		            set -x
+		            cd OSM_pmd4dl
+		            rm -f ./sample/geojson/kap/*.geojson
+		            python3 FetchJsonFiles.py -a ${params.SERVERURL} -i ${params.SERVERPATH} -o ${params.WORKINGDIR}
+		            rm -f ./sample/geojson/kap/download.geojson
+		        """            
+	        }
+	    }
+	    
+	    stage('merge geojson files') {
+	    	steps{
+		        sh"""#!/bin/bash
+		        set -x
+		        cd OSM_pmd4dl
+		        python3 merge_geojson_files.py -d ${params.WORKINGDIR} -o ${params.FILENAME} 
+		        """            
+		    }
+	    }
+	
+	    stage('deploy geojson files') 
+	    {
+			when { 
+				expression { return params.DEPLOY } 
+			}
+			
+	        steps
+            {
+                sh"""#!/bin/bash
+		        set -x
+		        cd OSM_pmd4dl
+		        echo rsync -e "ssh -i /var/lib/jenkins/sshkeys/id_osm" -av ${params.FILENAME} osm-trans@golf.franken.de:charts/kap/
+		        echo rsync -e "ssh -i /var/lib/jenkins/sshkeys/osm-trans-alpha.pkey" -av ${params.FILENAME} osm-trans@alpha.openseamap.org:./
+		    	ls sample/download.geojson
+	        	"""  
+		   }      
+	     }     	
+    }      
 }
