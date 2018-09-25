@@ -6,7 +6,7 @@ pipeline
         string(name: 'WORKINGDIR', defaultValue: 'work/', description: 'download directory for json files')
         string(name: 'SERVERURL',  defaultValue: 'ftp5.gwdg.de', description: 'url of the https server with download packages')
         string(name: 'SERVERPATH', defaultValue: '/pub/misc/openstreetmap/openseamap/charts/history/kap', description: 'server path')
-        string(name: 'FILENAME',   defaultValue: './sample/download.geojson', description: 'filename of merged geojson file')
+        string(name: 'FILENAME',   defaultValue: './sample/overview.geojson', description: 'filename of merged geojson file')
         booleanParam(name: 'DEPLOY',     defaultValue: true, description: 'deploy files if true')
     }
     
