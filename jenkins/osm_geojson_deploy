@@ -45,9 +45,9 @@ pipeline
                 sh"""#!/bin/bash
 		        set -x
 		        cd OSM_pmd4dl
-		        echo rsync -e "ssh -i /var/lib/jenkins/sshkeys/id_osm" -av ${params.FILENAME} osm-trans@golf.franken.de:charts/kap/
-		        echo rsync -e "ssh -i /var/lib/jenkins/sshkeys/osm-trans-alpha.pkey" -av ${params.FILENAME} osm-trans@alpha.openseamap.org:./
-		    	ls sample/download.geojson
+		        rsync -e "ssh -i /var/lib/jenkins/sshkeys/id_osm" -av ${params.FILENAME} osm-trans@golf.franken.de:charts/kap/
+		        rsync -e "ssh -i /var/lib/jenkins/sshkeys/osm-trans-alpha.pkey" -av ${params.FILENAME} osm-trans@alpha.openseamap.org:./
+		    	ls ${params.FILENAME}
 	        	"""  
 		   }      
 	     }     	
