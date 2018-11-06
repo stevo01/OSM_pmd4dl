@@ -95,7 +95,7 @@ if __name__ == '__main__':
     atlas = list()
 
     parser.add_option("-d", "--InDir", type="string", help="Input Directory", dest="InDir", default="./sample/geojson/kap/")
-    parser.add_option("-o", "--OutFile", type="string", help="Output Filename", dest="OutFile", default="./sample/download.geojson")
+    parser.add_option("-o", "--OutFile", type="string", help="Output Filename", dest="OutFile", default="./sample/overview.geojson")
     options, arguments = parser.parse_args()
 
     # get all json files from given directory
