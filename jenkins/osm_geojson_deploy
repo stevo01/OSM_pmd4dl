@@ -19,7 +19,7 @@ pipeline
 		            set -x
 		            cd OSM_pmd4dl
 		            python3 FetchJsonFiles.py -a ${params.SERVERURL} -i ${params.SERVERPATH} -o ${params.WORKINGDIR}
-		            rm -f ${params.WORKINGDIR}/download.geojson
+		            rm -f ${params.WORKINGDIR}/overview.geojson
 		        """            
 	        }
 	    }
