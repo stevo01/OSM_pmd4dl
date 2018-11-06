@@ -10,7 +10,7 @@
                         ],
                         [
                             16.171875,
-                            39.43619299931408
+                            39.43619299931407
                         ],
                         [
                             16.875,
@@ -63,11 +63,11 @@
             "properties": {
                 "app": "OpenCPN",
                 "app:url": "https://opencpn.org/",
-                "date": "2018-06-29T03:37:00Z",
-                "filesize": 265818831,
+                "date": "2018-09-07T01:36:00Z",
+                "filesize": 428267210,
                 "format": "KAP",
                 "name:en": "Adria",
-                "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/history/kap/OSM-OpenCPN2-KAP-Adria-20180629-0337.7z"
+                "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/history/kap/OSM-OpenCPN2-KAP-Adria-20180907-0136.7z"
             },
             "type": "Feature"
         },
@@ -85,7 +85,7 @@
                         ],
                         [
                             39.375,
-                            -16.55196172197251
+                            -16.551961721972514
                         ],
                         [
                             47.109375,
@@ -117,7 +117,7 @@
                         ],
                         [
                             66.708984375,
-                            25.799891182088317
+                            25.79989118208832
                         ],
                         [
                             56.865234375,
@@ -146,11 +146,11 @@
             "properties": {
                 "app": "OpenCPN",
                 "app:url": "https://opencpn.org/",
-                "date": "2018-07-01T09:34:00Z",
-                "filesize": 222662354,
+                "date": "2018-09-13T02:36:00Z",
+                "filesize": 363455459,
                 "format": "KAP",
                 "name:en": "ArabianSea",
-                "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/history/kap/OSM-OpenCPN2-KAP-ArabianSea-20180701-0934.7z"
+                "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/history/kap/OSM-OpenCPN2-KAP-ArabianSea-20180913-0236.7z"
             },
             "type": "Feature"
         },
@@ -225,11 +225,11 @@
             "properties": {
                 "app": "OpenCPN",
                 "app:url": "https://opencpn.org/",
-                "date": "2018-08-30T14:07:00Z",
-                "filesize": 1030328115,
+                "date": "2018-10-11T04:56:00Z",
+                "filesize": 600928133,
                 "format": "KAP",
                 "name:en": "Baltic",
-                "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/history/kap/OSM-OpenCPN2-KAP-Baltic-20180830-1407.7z"
+                "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/history/kap/OSM-OpenCPN2-KAP-Baltic-20181011-0456.7z"
             },
             "type": "Feature"
         },
@@ -239,7 +239,7 @@
                     [
                         [
                             -98.4375,
-                            22.024545601240334
+                            22.02454560124033
                         ],
                         [
                             -96.328125,
@@ -275,7 +275,7 @@
                         ],
                         [
                             -60.556640625,
-                            16.636191878397653
+                            16.636191878397657
                         ],
                         [
                             -61.259765625,
@@ -287,7 +287,7 @@
                         ],
                         [
                             -80.244140625,
-                            28.9216312824213
+                            28.92163128242129
                         ],
                         [
                             -85.166015625,
@@ -307,7 +307,7 @@
                         ],
                         [
                             -97.03125,
-                            28.9216312824213
+                            28.92163128242129
                         ],
                         [
                             -97.734375,
@@ -319,7 +319,7 @@
                         ],
                         [
                             -98.4375,
-                            22.024545601240334
+                            22.02454560124033
                         ]
                     ]
                 ],
@@ -328,11 +328,11 @@
             "properties": {
                 "app": "OpenCPN",
                 "app:url": "https://opencpn.org/",
-                "date": "2018-07-06T11:43:00Z",
-                "filesize": 377752585,
+                "date": "2018-10-01T00:48:00Z",
+                "filesize": 368981488,
                 "format": "KAP",
                 "name:en": "Caribbean",
-                "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/history/kap/OSM-OpenCPN2-KAP-Caribbean-20180706-1143.7z"
+                "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/history/kap/OSM-OpenCPN2-KAP-Caribbean-20181001-0048.7z"
             },
             "type": "Feature"
         },
@@ -350,7 +350,7 @@
                         ],
                         [
                             -5.625,
-                            48.048709942886866
+                            48.04870994288686
                         ],
                         [
                             -5.2734375,
@@ -419,11 +419,11 @@
             "properties": {
                 "app": "OpenCPN",
                 "app:url": "https://opencpn.org/",
-                "date": "2018-07-08T16:11:00Z",
-                "filesize": 256264642,
+                "date": "2018-09-20T07:39:00Z",
+                "filesize": 247845154,
                 "format": "KAP",
                 "name:en": "Channel",
-                "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/history/kap/OSM-OpenCPN2-KAP-Channel-20180708-1611.7z"
+                "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/history/kap/OSM-OpenCPN2-KAP-Channel-20180920-0739.7z"
             },
             "type": "Feature"
         },
@@ -597,11 +597,11 @@
             "properties": {
                 "app": "OpenCPN",
                 "app:url": "https://opencpn.org/",
-                "date": "2018-08-30T20:46:00Z",
-                "filesize": 1799676603,
+                "date": "2018-09-20T21:41:00Z",
+                "filesize": 1849522646,
                 "format": "KAP",
                 "name:en": "Europa1",
-                "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/history/kap/OSM-OpenCPN2-KAP-Europa1-20180830-2046.7z"
+                "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/history/kap/OSM-OpenCPN2-KAP-Europa1-20180920-2141.7z"
             },
             "type": "Feature"
         },
@@ -655,7 +655,7 @@
                         ],
                         [
                             11.25,
-                            53.74871079689898
+                            53.748710796898976
                         ],
                         [
                             11.25,
@@ -668,11 +668,11 @@
             "properties": {
                 "app": "OpenCPN",
                 "app:url": "https://opencpn.org/",
-                "date": "2018-07-10T15:57:00Z",
-                "filesize": 248821035,
+                "date": "2018-09-21T19:44:00Z",
+                "filesize": 275656756,
                 "format": "KAP",
                 "name:en": "Germany-NorthEast",
-                "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/history/kap/OSM-OpenCPN2-KAP-Germany-NorthEast-20180710-1557.7z"
+                "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/history/kap/OSM-OpenCPN2-KAP-Germany-NorthEast-20180921-1944.7z"
             },
             "type": "Feature"
         },
@@ -698,7 +698,7 @@
                         ],
                         [
                             -78.837890625,
-                            42.09822241118974
+                            42.09822241118973
                         ],
                         [
                             -76.025390625,
@@ -722,7 +722,7 @@
                         ],
                         [
                             -90.0,
-                            48.45835188280865
+                            48.45835188280866
                         ],
                         [
                             -90.703125,
@@ -730,7 +730,7 @@
                         ],
                         [
                             -91.40625,
-                            47.5172006978394
+                            47.51720069783939
                         ],
                         [
                             -92.109375,
@@ -747,11 +747,11 @@
             "properties": {
                 "app": "OpenCPN",
                 "app:url": "https://opencpn.org/",
-                "date": "2018-07-11T00:37:00Z",
-                "filesize": 109176984,
+                "date": "2018-09-22T11:02:00Z",
+                "filesize": 105368061,
                 "format": "KAP",
                 "name:en": "GreatLakes",
-                "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/history/kap/OSM-OpenCPN2-KAP-GreatLakes-20180711-0037.7z"
+                "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/history/kap/OSM-OpenCPN2-KAP-GreatLakes-20180922-1102.7z"
             },
             "type": "Feature"
         },
@@ -781,7 +781,7 @@
                         ],
                         [
                             95.5810546875,
-                            5.3097661719436795
+                            5.30976617194368
                         ],
                         [
                             95.5810546875,
@@ -789,7 +789,7 @@
                         ],
                         [
                             94.833984375,
-                            16.636191878397653
+                            16.636191878397657
                         ],
                         [
                             94.130859375,
@@ -809,7 +809,7 @@
                         ],
                         [
                             79.453125,
-                            15.961329081596643
+                            15.961329081596647
                         ],
                         [
                             78.75,
@@ -826,11 +826,11 @@
             "properties": {
                 "app": "OpenCPN",
                 "app:url": "https://opencpn.org/",
-                "date": "2018-07-11T05:43:00Z",
-                "filesize": 64337082,
+                "date": "2018-09-22T14:16:00Z",
+                "filesize": 63415434,
                 "format": "KAP",
                 "name:en": "GulfOfBengal",
-                "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/history/kap/OSM-OpenCPN2-KAP-GulfOfBengal-20180711-0543.7z"
+                "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/history/kap/OSM-OpenCPN2-KAP-GulfOfBengal-20180922-1416.7z"
             },
             "type": "Feature"
         },
@@ -876,7 +876,7 @@
                         ],
                         [
                             -1.494140625,
-                            47.5172006978394
+                            47.51720069783939
                         ],
                         [
                             -5.009765625,
@@ -901,11 +901,11 @@
             "properties": {
                 "app": "OpenCPN",
                 "app:url": "https://opencpn.org/",
-                "date": "2018-07-11T15:50:00Z",
-                "filesize": 179812641,
+                "date": "2018-09-22T19:28:00Z",
+                "filesize": 175045702,
                 "format": "KAP",
                 "name:en": "GulfOfBiscay",
-                "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/history/kap/OSM-OpenCPN2-KAP-GulfOfBiscay-20180711-1550.7z"
+                "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/history/kap/OSM-OpenCPN2-KAP-GulfOfBiscay-20180922-1928.7z"
             },
             "type": "Feature"
         },
@@ -919,7 +919,7 @@
                         ],
                         [
                             -75.234375,
-                            -53.27835301753182
+                            -53.27835301753183
                         ],
                         [
                             -73.828125,
@@ -935,7 +935,7 @@
                         ],
                         [
                             -68.818359375,
-                            -56.55342775282034
+                            -56.55342775282035
                         ],
                         [
                             -68.73046875,
@@ -947,7 +947,7 @@
                         ],
                         [
                             -68.653564453125,
-                            -56.55342775282034
+                            -56.55342775282035
                         ],
                         [
                             -68.57666015625,
@@ -959,7 +959,7 @@
                         ],
                         [
                             -66.181640625,
-                            -56.121060425044085
+                            -56.12106042504408
                         ],
                         [
                             -63.369140625,
@@ -988,11 +988,11 @@
             "properties": {
                 "app": "OpenCPN",
                 "app:url": "https://opencpn.org/",
-                "date": "2018-07-11T21:32:00Z",
-                "filesize": 26765246,
+                "date": "2018-09-23T14:23:00Z",
+                "filesize": 26400997,
                 "format": "KAP",
                 "name:en": "MagellanStrait",
-                "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/history/kap/OSM-OpenCPN2-KAP-MagellanStrait-20180711-2132.7z"
+                "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/history/kap/OSM-OpenCPN2-KAP-MagellanStrait-20180923-1423.7z"
             },
             "type": "Feature"
         },
@@ -1026,7 +1026,7 @@
                         ],
                         [
                             35.068359375,
-                            31.42866311735861
+                            31.428663117358603
                         ],
                         [
                             36.474609375,
@@ -1067,11 +1067,11 @@
             "properties": {
                 "app": "OpenCPN",
                 "app:url": "https://opencpn.org/",
-                "date": "2018-07-12T04:15:00Z",
-                "filesize": 621086879,
+                "date": "2018-09-26T22:15:00Z",
+                "filesize": 601279418,
                 "format": "KAP",
                 "name:en": "MediEast",
-                "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/history/kap/OSM-OpenCPN2-KAP-MediEast-20180712-0415.7z"
+                "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/history/kap/OSM-OpenCPN2-KAP-MediEast-20180926-2215.7z"
             },
             "type": "Feature"
         },
@@ -1117,7 +1117,7 @@
                         ],
                         [
                             16.083984375,
-                            40.44694705960049
+                            40.4469470596005
                         ],
                         [
                             15.380859375,
@@ -1150,11 +1150,11 @@
             "properties": {
                 "app": "OpenCPN",
                 "app:url": "https://opencpn.org/",
-                "date": "2018-07-13T17:42:00Z",
-                "filesize": 578291620,
+                "date": "2018-09-26T04:38:00Z",
+                "filesize": 561313552,
                 "format": "KAP",
                 "name:en": "MediWest",
-                "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/history/kap/OSM-OpenCPN2-KAP-MediWest-20180713-1742.7z"
+                "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/history/kap/OSM-OpenCPN2-KAP-MediWest-20180926-0438.7z"
             },
             "type": "Feature"
         },
@@ -1168,11 +1168,11 @@
                         ],
                         [
                             4.5703125,
-                            51.63165734944998
+                            51.63165734944999
                         ],
                         [
                             5.42724609375,
-                            51.63165734944998
+                            51.63165734944999
                         ],
                         [
                             5.5810546875,
@@ -1213,11 +1213,11 @@
             "properties": {
                 "app": "OpenCPN",
                 "app:url": "https://opencpn.org/",
-                "date": "2018-07-14T19:51:00Z",
-                "filesize": 128253141,
+                "date": "2018-09-27T14:44:00Z",
+                "filesize": 124278876,
                 "format": "KAP",
                 "name:en": "Niederlande-Binnen",
-                "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/history/kap/OSM-OpenCPN2-KAP-Niederlande-Binnen-20180714-1951.7z"
+                "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/history/kap/OSM-OpenCPN2-KAP-Niederlande-Binnen-20180927-1444.7z"
             },
             "type": "Feature"
         },
@@ -1239,7 +1239,7 @@
                         ],
                         [
                             -24.9609375,
-                            14.647368383896625
+                            14.647368383896621
                         ],
                         [
                             -17.578125,
@@ -1300,11 +1300,11 @@
             "properties": {
                 "app": "OpenCPN",
                 "app:url": "https://opencpn.org/",
-                "date": "2018-08-23T14:26:00Z",
-                "filesize": 251393548,
+                "date": "2018-09-27T23:03:00Z",
+                "filesize": 243453365,
                 "format": "KAP",
                 "name:en": "NorthernAtlantic",
-                "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/history/kap/OSM-OpenCPN2-KAP-NorthernAtlantic-20180823-1426.7z"
+                "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/history/kap/OSM-OpenCPN2-KAP-NorthernAtlantic-20180927-2303.7z"
             },
             "type": "Feature"
         },
@@ -1326,7 +1326,7 @@
                         ],
                         [
                             0.703125,
-                            50.76425935711647
+                            50.764259357116465
                         ],
                         [
                             1.40625,
@@ -1354,7 +1354,7 @@
                         ],
                         [
                             11.865234375,
-                            58.813741715707806
+                            58.81374171570782
                         ],
                         [
                             11.162109375,
@@ -1374,7 +1374,7 @@
                         ],
                         [
                             -5.625,
-                            58.813741715707806
+                            58.81374171570782
                         ],
                         [
                             -5.625,
@@ -1387,11 +1387,11 @@
             "properties": {
                 "app": "OpenCPN",
                 "app:url": "https://opencpn.org/",
-                "date": "2018-07-31T15:09:00Z",
-                "filesize": 644662286,
+                "date": "2018-10-28T01:41:00Z",
+                "filesize": 617625514,
                 "format": "KAP",
                 "name:en": "NorthSea",
-                "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/history/kap/OSM-OpenCPN2-KAP-NorthSea-20180731-1509.7z"
+                "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/history/kap/OSM-OpenCPN2-KAP-NorthSea-20181028-0141.7z"
             },
             "type": "Feature"
         },
@@ -1445,7 +1445,7 @@
                         ],
                         [
                             -100.634765625,
-                            75.49715731893085
+                            75.49715731893083
                         ],
                         [
                             -121.728515625,
@@ -1461,11 +1461,11 @@
                         ],
                         [
                             -159.609375,
-                            71.07405646336098
+                            71.07405646336096
                         ],
                         [
                             -162.421875,
-                            70.37785394109224
+                            70.37785394109225
                         ],
                         [
                             -163.125,
@@ -1473,11 +1473,11 @@
                         ],
                         [
                             -163.828125,
-                            69.90011762668541
+                            69.9001176266854
                         ],
                         [
                             -166.640625,
-                            68.91100484562018
+                            68.9110048456202
                         ],
                         [
                             -171.5625,
@@ -1485,7 +1485,7 @@
                         ],
                         [
                             -173.671875,
-                            64.47279382008166
+                            64.47279382008165
                         ],
                         [
                             -179.296875,
@@ -1502,11 +1502,11 @@
             "properties": {
                 "app": "OpenCPN",
                 "app:url": "https://opencpn.org/",
-                "date": "2018-07-20T23:30:00Z",
-                "filesize": 108224860,
+                "date": "2018-10-06T10:00:00Z",
+                "filesize": 106458554,
                 "format": "KAP",
                 "name:en": "NorthWestPassage",
-                "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/history/kap/OSM-OpenCPN2-KAP-NorthWestPassage-20180720-2330.7z"
+                "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/history/kap/OSM-OpenCPN2-KAP-NorthWestPassage-20181006-1000.7z"
             },
             "type": "Feature"
         },
@@ -1561,11 +1561,11 @@
             "properties": {
                 "app": "OpenCPN",
                 "app:url": "https://opencpn.org/",
-                "date": "2018-08-23T06:17:00Z",
-                "filesize": 153097719,
+                "date": "2018-10-23T07:13:00Z",
+                "filesize": 149873410,
                 "format": "KAP",
                 "name:en": "Saimaa",
-                "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/history/kap/OSM-OpenCPN2-KAP-Saimaa-20180823-0617.7z"
+                "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/history/kap/OSM-OpenCPN2-KAP-Saimaa-20181023-0713.7z"
             },
             "type": "Feature"
         },
@@ -1579,11 +1579,11 @@
                         ],
                         [
                             99.84375,
-                            7.100892668623648
+                            7.100892668623649
                         ],
                         [
                             102.65625,
-                            0.7909904981540045
+                            0.7909904981540044
                         ],
                         [
                             104.0625,
@@ -1599,7 +1599,7 @@
                         ],
                         [
                             108.9404296875,
-                            -2.7674779510920864
+                            -2.767477951092087
                         ],
                         [
                             115.927734375,
@@ -1611,11 +1611,11 @@
                         ],
                         [
                             125.771484375,
-                            24.607069137709686
+                            24.60706913770969
                         ],
                         [
                             125.771484375,
-                            25.16517336866394
+                            25.165173368663936
                         ],
                         [
                             123.662109375,
@@ -1635,7 +1635,7 @@
                         ],
                         [
                             106.171875,
-                            21.289374355860417
+                            21.28937435586042
                         ],
                         [
                             99.84375,
@@ -1656,11 +1656,102 @@
             "properties": {
                 "app": "OpenCPN",
                 "app:url": "https://opencpn.org/",
-                "date": "2018-07-18T15:51:00Z",
-                "filesize": 366961422,
+                "date": "2018-10-07T20:28:00Z",
+                "filesize": 364135153,
                 "format": "KAP",
                 "name:en": "SouthChineseSea",
-                "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/history/kap/OSM-OpenCPN2-KAP-SouthChineseSea-20180718-1551.7z"
+                "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/history/kap/OSM-OpenCPN2-KAP-SouthChineseSea-20181007-2028.7z"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            -180.0,
+                            -19.26966529650233
+                        ],
+                        [
+                            -179.296875,
+                            -31.87755764334002
+                        ],
+                        [
+                            -177.1875,
+                            -44.5278427984555
+                        ],
+                        [
+                            -176.484375,
+                            -44.55916341529183
+                        ],
+                        [
+                            -176.1767578125,
+                            -44.55916341529183
+                        ],
+                        [
+                            179.80224609375,
+                            -19.290405639497994
+                        ],
+                        [
+                            179.9560546875,
+                            -19.26966529650233
+                        ],
+                        [
+                            179.9945068359375,
+                            -18.68267505218556
+                        ],
+                        [
+                            179.9945068359375,
+                            -16.509832826905846
+                        ],
+                        [
+                            179.97802734375,
+                            -9.275622176792101
+                        ],
+                        [
+                            179.9560546875,
+                            -9.102096738726447
+                        ],
+                        [
+                            177.099609375,
+                            -0.7031073524364867
+                        ],
+                        [
+                            173.583984375,
+                            3.5134210456400385
+                        ],
+                        [
+                            -169.541015625,
+                            17.308687886770024
+                        ],
+                        [
+                            -170.15625,
+                            17.308687886770024
+                        ],
+                        [
+                            -177.1875,
+                            1.4061088354351565
+                        ],
+                        [
+                            -180.0,
+                            -16.636191878397657
+                        ],
+                        [
+                            -180.0,
+                            -19.26966529650233
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            },
+            "properties": {
+                "app": "OpenCPN",
+                "app:url": "https://opencpn.org/",
+                "date": "2018-10-10T21:41:00Z",
+                "filesize": 124825278,
+                "format": "KAP",
+                "name:en": "SouthPacificIslands",
+                "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/history/kap/OSM-OpenCPN2-KAP-SouthPacificIslands-20181010-2141.7z"
             },
             "type": "Feature"
         },
@@ -1707,11 +1798,11 @@
             "properties": {
                 "app": "OpenCPN",
                 "app:url": "https://opencpn.org/",
-                "date": "2018-08-30T19:39:00Z",
-                "filesize": 10543278,
+                "date": "2018-09-16T11:16:00Z",
+                "filesize": 6399360,
                 "format": "KAP",
                 "name:en": "test",
-                "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/history/kap/OSM-OpenCPN2-KAP-test-20180830-1939.7z"
+                "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/history/kap/OSM-OpenCPN2-KAP-test-20180916-1116.7z"
             },
             "type": "Feature"
         },
@@ -1729,7 +1820,7 @@
                         ],
                         [
                             -116.015625,
-                            24.607069137709686
+                            24.60706913770969
                         ],
                         [
                             -105.46875,
@@ -1749,7 +1840,7 @@
                         ],
                         [
                             -104.853515625,
-                            21.289374355860417
+                            21.28937435586042
                         ],
                         [
                             -105.5126953125,
@@ -1761,7 +1852,7 @@
                         ],
                         [
                             -121.728515625,
-                            48.45835188280865
+                            48.45835188280866
                         ],
                         [
                             -130.166015625,
@@ -1782,11 +1873,11 @@
             "properties": {
                 "app": "OpenCPN",
                 "app:url": "https://opencpn.org/",
-                "date": "2018-07-15T21:37:00Z",
-                "filesize": 255389025,
+                "date": "2018-10-09T13:52:00Z",
+                "filesize": 247982234,
                 "format": "KAP",
                 "name:en": "USWestCoast",
-                "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/history/kap/OSM-OpenCPN2-KAP-USWestCoast-20180715-2137.7z"
+                "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/history/kap/OSM-OpenCPN2-KAP-USWestCoast-20181009-1352.7z"
             },
             "type": "Feature"
         }
