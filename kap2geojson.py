@@ -68,6 +68,18 @@ if __name__ == '__main__':
     for chart in atlas:
         # print(area)
         if(chart.zoom >= options.zoom):
+
+            # hack for SouthPacificIslands
+            if mapname == "SouthPacificIslands":
+                if chart.NE.lon > 0:
+                    chart.NE.lon -= 360
+                if chart.NW.lon > 0:
+                    chart.NW.lon -= 360
+                if chart.SE.lon > 0:
+                    chart.SE.lon -= 360
+                if chart.SW.lon > 0:
+                    chart.SW.lon -= 360
+
             points.append((chart.NE.lon, chart.NE.lat))
             points.append((chart.NW.lon, chart.NW.lat))
             points.append((chart.SE.lon, chart.SE.lat))

@@ -24,6 +24,6 @@ cd OSM_pmd4dl
 # sample call of the merge script
 ```
 mkdir .downloads
-wget -c -P .downloads ftp://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/kap/*.json
-python merge_geojson_files.py -i .downloads/ -o download.geojson 
+python FetchJsonFiles.py -a ftp5.gwdg.de -i /pub/misc/openstreetmap/openseamap/charts/history/kap -d sample/geojson/kap/
+python merge_geojson_files.py -d .sample/geojson/kap/ -o download.geojson
 ```
