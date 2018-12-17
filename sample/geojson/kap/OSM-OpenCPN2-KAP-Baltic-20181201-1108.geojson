@@ -69,11 +69,11 @@
     "properties": {
         "app": "OpenCPN",
         "app:url": "https://opencpn.org/",
-        "date": "2018-08-30T14:07:00Z",
-        "filesize": 1030328115,
+        "date": "2018-12-01T11:08:00Z",
+        "filesize": 600924694,
         "format": "KAP",
         "name:en": "Baltic",
-        "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/history/kap/OSM-OpenCPN2-KAP-Baltic-20180830-1407.7z"
+        "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/history/kap/OSM-OpenCPN2-KAP-Baltic-20181201-1108.7z"
     },
     "type": "Feature"
 }
