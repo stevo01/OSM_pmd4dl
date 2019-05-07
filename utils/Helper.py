@@ -1,28 +1,11 @@
 #!/usr/bin/python3
 # encoding: utf-8
-'''
-several helper functions
 
-Copyright (C) 2017  Steffen Volkmann
 
-This file is part of SeaMapCreator.
-
-Foobar is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-Foobar is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
-
-'''
 from utils.Conversions import deg2num, num2deg
 import os
+import re
+from datetime import datetime
 
 
 # storage for coordinates for a single point
@@ -90,3 +73,19 @@ def ensure_dir(file_path):
     directory = os.path.dirname(file_path)
     if not os.path.exists(directory):
         os.makedirs(directory)
+
+
+def HandleDate(date):
+    # 2018-03-12T05:30:30.801Z
+    # 20171012-1120"
+
+    a = re.match("[\d]{8}-[\d]{4}", date)
+
+    if a is not None:
+        b = a.group()
+        datetime_object = datetime.strptime(b, '%Y%m%d-%H%M')
+        b = datetime_object.isoformat('T') + 'Z'
+
+        return b
+
+    return date
