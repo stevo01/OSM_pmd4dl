@@ -1,0 +1,51 @@
+{
+    "geometry": {
+        "coordinates": [
+            [
+                [
+                    12.65625,
+                    52.536273041459474
+                ],
+                [
+                    13.18359375,
+                    52.4961595310971
+                ],
+                [
+                    13.33740234375,
+                    52.4961595310971
+                ],
+                [
+                    13.33740234375,
+                    52.5897007687178
+                ],
+                [
+                    13.3154296875,
+                    52.69636107827448
+                ],
+                [
+                    13.271484375,
+                    52.90890204777026
+                ],
+                [
+                    12.65625,
+                    52.90890204777026
+                ],
+                [
+                    12.65625,
+                    52.536273041459474
+                ]
+            ]
+        ],
+        "type": "Polygon"
+    },
+    "properties": {
+        "app": "OpenCPN",
+        "app:url": "https://opencpn.org/",
+        "date": "2019-04-26T14:47:00Z",
+        "filesize": 226376931,
+        "format": "KAP",
+        "name:en": "test",
+        "url": "https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/history/kap/OSM-OpenCPN2-KAP-Adria-20190426-1447.7z"
+    },
+    "type": "Feature"
+}
