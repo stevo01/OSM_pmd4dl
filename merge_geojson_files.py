@@ -5,13 +5,9 @@ Created on 21.12.2017
 '''
 
 import geojson
-from utils.osmchart import osmchart_atlas
 from utils.filesystem import GetFileList
 from optparse import OptionParser
-from geojson.feature import Feature, FeatureCollection
-from geojson.geometry import Polygon
-from utils.pyFTP import ftpAccess
-from UnitTests.osmchart import HandleDate
+from geojson.feature import FeatureCollection
 
 class JsonFileInfoList(object):
 
@@ -116,7 +112,6 @@ if __name__ == '__main__':
 
         with open(options.InDir+filename) as f:
             content = f.read()
-
             gj_data = geojson.loads(content)
 
             feature_list.append(gj_data)

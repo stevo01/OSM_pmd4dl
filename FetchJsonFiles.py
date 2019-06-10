@@ -12,7 +12,7 @@ if __name__ == '__main__':
     usage = "usage: %prog [options] arg1 arg2"
     atlas = list()
 
-    parser.add_option("-a", "--address", type="string", help="server address", dest="address", default="ftp5.gwdg.de")
+    parser.add_option("-a", "--address", type="string", help="server address", dest="address", default="ftp.gwdg.de")
     parser.add_option("-i", "--dir", type="string", help="json file directory on server", dest="InPath", default="/pub/misc/openstreetmap/openseamap/charts/history/kap")
     parser.add_option("-o", "--filedir", type="string", help="url", dest="OutPath", default="sample/geojson/kap/")
 

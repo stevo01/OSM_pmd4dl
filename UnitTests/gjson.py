@@ -82,7 +82,7 @@ class Test(unittest.TestCase):
 
     def testgeojsonmetadata(self):
 
-        expectedRes = '{"geometry": {"coordinates": [[[0, 55.77657302], [0, 40.97989807], [-11.25, 40.97989807], [-11.25, 55.77657302], [0, 55.77657302]]], "properties": {"app": "OpenCPN", "app:url": "http://opencpn.org/ocpn/", "date": "2016-05-17T20:59:00.000Z", "filesize": 12345, "format": "KAP", "name:de": "Golf von Biskaya", "name:en": "Gulf of Biscay", "url": "ftp://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/chartbundles/kap/OSM-OpenCPN-KAP2-GulfOfBiscay-20160515-1145.7z"}, "type": "Polygon"}, "properties": {}, "type": "Feature"}'
+        expectedRes = '{"geometry": {"coordinates": [[[0, 55.77657302], [0, 40.97989807], [-11.25, 40.97989807], [-11.25, 55.77657302], [0, 55.77657302]]], "properties": {"app": "OpenCPN", "app:url": "http://opencpn.org/ocpn/", "date": "2016-05-17T20:59:00.000Z", "filesize": 12345, "format": "KAP", "name:de": "Golf von Biskaya", "name:en": "Gulf of Biscay", "url": "ftp://ftp.gwdg.de/pub/misc/openstreetmap/openseamap/chartbundles/kap/OSM-OpenCPN-KAP2-GulfOfBiscay-20160515-1145.7z"}, "type": "Polygon"}, "properties": {}, "type": "Feature"}'
 
         NW1 = (12.0, 50.0)
         SW1 = (12.0, 49.0)
@@ -101,7 +101,7 @@ class Test(unittest.TestCase):
                                          "format": "KAP",
                                          "app": "OpenCPN",
                                          "app:url": "http://opencpn.org/ocpn/",
-                                         "url": "ftp://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/chartbundles/kap/OSM-OpenCPN-KAP2-GulfOfBiscay-20160515-1145.7z",
+                                         "url": "https://ftp.gwdg.de/pub/misc/openstreetmap/openseamap/chartbundles/kap/OSM-OpenCPN-KAP2-GulfOfBiscay-20160515-1145.7z",
                                          "date": "2016-05-17T20:59:00.000Z",
                                          "filesize": 12345
                                          })
