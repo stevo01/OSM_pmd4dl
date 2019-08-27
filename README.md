@@ -8,7 +8,8 @@ https://wiki.openseamap.org/wiki/OpenSeaMap-dev:De:Chart_Download_Layer
 http://geojsonlint.com/
 
 # location for chart bundles
-kap files neu: https://ftp.gwdg.de/pub/misc/openstreetmap/openseamap/charts/kap/
+kap files:     https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/history/kap/
+mbtiles files: https://ftp5.gwdg.de/pub/misc/openstreetmap/openseamap/charts/history/mbtiles/
 
 # requirements
 geojson
@@ -24,6 +25,8 @@ cd OSM_pmd4dl
 # sample call of the merge script
 ```
 mkdir .downloads
-python FetchJsonFiles.py -a ftp.gwdg.de -i /pub/misc/openstreetmap/openseamap/charts/history/kap -d sample/geojson/kap/
+python FetchJsonFiles.py -a ftp.gwdg.de -i /pub/misc/openstreetmap/openseamap/charts/history/kap     -d sample/geojson/dl/
+python FetchJsonFiles.py -a ftp.gwdg.de -i pub/misc/openstreetmap/openseamap/charts/history/mbtiles/ -d sample/geojson/dl/
+
 python merge_geojson_files.py -d .sample/geojson/kap/ -o download.geojson
 ```

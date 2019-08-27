@@ -9,6 +9,7 @@ from utils.filesystem import GetFileList
 from optparse import OptionParser
 from geojson.feature import FeatureCollection
 
+
 class JsonFileInfoList(object):
 
     class JsonFileInfo():
@@ -58,7 +59,9 @@ class JsonFileInfoList(object):
     def GetFilenameList(self):
         retv = list()
         for entry in self.jsonfilelist:
-            retv.append("{}-{}.geojson".format(entry.mapname, entry.timestamp))
+            filename = "{}-{}.geojson".format(entry.mapname, entry.timestamp)
+            print(filename)
+            retv.append(filename)
         return retv
 
 
@@ -90,18 +93,21 @@ if __name__ == '__main__':
     usage = "usage: %prog [options] arg1 arg2"
     atlas = list()
 
-    parser.add_option("-d", "--InDir", type="string", help="Input Directory", dest="InDir", default="./sample/geojson/kap/")
+    parser.add_option("-d", "--InDir", type="string", help="Input Directory", dest="InDir", default="./sample/geojson/dl/")
     parser.add_option("-o", "--OutFile", type="string", help="Output Filename", dest="OutFile", default="./sample/overview.geojson")
     options, arguments = parser.parse_args()
 
     # get all json files from given directory
     filenamelist = GetJsonFiles(options.InDir)
 
+    print (filenamelist)
+
     # for entry in filenamelist:
     #    print(entry)
 
     # create list for huell
     feature_list = list()
+
 
     print("merge_geojson_files started")
     print("input file directory {}".format(options.InDir))
@@ -110,7 +116,7 @@ if __name__ == '__main__':
     # loop over all files and merge
     for filename in filenamelist:
 
-        with open(options.InDir+filename) as f:
+        with open(options.InDir + filename) as f:
             content = f.read()
             gj_data = geojson.loads(content)
 
