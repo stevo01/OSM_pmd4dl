@@ -102,3 +102,5 @@ ENV/
 # mypy
 .mypy_cache/
 /GenerateGeoJsonFiles.bat
+work/*.geojson
+download.geojson

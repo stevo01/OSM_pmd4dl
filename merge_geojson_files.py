@@ -21,45 +21,19 @@ class JsonFileInfoList(object):
 
             self.filename = filename
             self.mapname = filename[:-22]
-            self.timestamp = filename[-21:-8]
-
-            print("{}-{}".format(self.mapname, self.timestamp))
 
     def __init__(self):
         # check extension
         self.jsonfilelist = list()
 
-    def SearchMapEntry(self, name):
-        retv = None
-        idx = 0
-        for entry in self.jsonfilelist:
-            if entry.mapname == name:
-                retv = idx
-                break
-            idx = idx + 1
-        return retv
-
     def append(self, value1):
-
-        value = JsonFileInfoList.JsonFileInfo(value1)
-
-        # check if entry for map exists
-        idx = self.SearchMapEntry(value.mapname)
-        if idx is None:
-            self.jsonfilelist.append(value)
-        else:
-            print("JsonFileInfoList: update Entry, {}, {}".format(self.jsonfilelist[idx].timestamp, value.timestamp))
-            if(self.jsonfilelist[idx].timestamp < value.timestamp):
-                # update timestamp
-                self.jsonfilelist[idx].timestamp = value.timestamp
-            else:
-                pass
+        self.jsonfilelist.append(value1)
         return
 
     def GetFilenameList(self):
         retv = list()
         for entry in self.jsonfilelist:
-            filename = "{}-{}.geojson".format(entry.mapname, entry.timestamp)
+            filename = entry
             print(filename)
             retv.append(filename)
         return retv
@@ -119,6 +93,8 @@ if __name__ == '__main__':
         with open(options.InDir + filename) as f:
             content = f.read()
             gj_data = geojson.loads(content)
+            
+            gj_data.properties["date"]="2023-04-01T12:00:00Z"    
 
             feature_list.append(gj_data)
 
